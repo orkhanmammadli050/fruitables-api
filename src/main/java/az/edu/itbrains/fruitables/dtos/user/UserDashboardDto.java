@@ -13,5 +13,4 @@ public class UserDashboardDto {
     private String lastname;
     private String email;
     private boolean enabled;
-    private double cashback;
 }

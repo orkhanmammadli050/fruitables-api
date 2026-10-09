@@ -19,7 +19,6 @@ public class ProductDashboardDto {
     private BigDecimal price;
     private BigDecimal discount;
     private int quantity;
-    private double cashbackPercent;
     private CategoryDto category;
     private String photoUrl;
 

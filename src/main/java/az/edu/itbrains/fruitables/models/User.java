@@ -29,7 +29,6 @@ public class User implements UserDetails {
     @Column(unique = true)
     private String email;
     private String password;
-    private double cashback;
 
     @OneToMany(mappedBy = "user")
     private List<Basket> baskets = new ArrayList<>();

@@ -21,6 +21,5 @@ public class ProductCreateDto {
     private String description;
     private String shortDescription;
     private int quantity;
-    private double cashbackPercent;
     private Long categoryId;
 }

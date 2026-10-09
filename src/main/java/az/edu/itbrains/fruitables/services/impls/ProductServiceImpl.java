@@ -47,7 +47,6 @@ public class ProductServiceImpl implements ProductService {
         product.setDescription(productCreate.getDescription());
         product.setShortDescription(productCreate.getShortDescription());
         product.setQuantity(productCreate.getQuantity());
-        product.setCashbackPercent(productCreate.getCashbackPercent());
         product.setCategory(category);
         product.setSlug(slug);
         productRepository.save(product);
@@ -67,7 +66,6 @@ public class ProductServiceImpl implements ProductService {
         product.setDescription(productUpdate.getDescription());
         product.setShortDescription(productUpdate.getShortDescription());
         product.setQuantity(productUpdate.getQuantity());
-        product.setCashbackPercent(productUpdate.getCashbackPercent());
         product.setCategory(category);
         product.setSlug(slug);
         productRepository.save(product);

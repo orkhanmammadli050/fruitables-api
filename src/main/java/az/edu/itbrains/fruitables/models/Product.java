@@ -23,7 +23,6 @@ public class Product {
     private String name;
     private String description;
     private String shortDescription;
-    private double cashbackPercent;
     private int quantity;
     private boolean isStock;
     private boolean isNew;

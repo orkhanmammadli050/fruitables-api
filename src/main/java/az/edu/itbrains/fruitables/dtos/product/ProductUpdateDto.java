@@ -19,6 +19,5 @@ public class ProductUpdateDto {
     private String description;
     private String shortDescription;
     private int quantity;
-    private double cashbackPercent;
     private Long categoryId;
 }

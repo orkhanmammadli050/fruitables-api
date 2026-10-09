@@ -44,7 +44,6 @@ public class UserController {
                 .lastname(user.getLastname())
                 .email(user.getEmail())
                 .enabled(user.isEnabled())
-                .cashback(user.getCashback())
                 .build();
     }
 }
